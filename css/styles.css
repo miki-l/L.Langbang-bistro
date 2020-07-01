@@ -11,7 +11,6 @@ body {
   border-radius: 0;
   border: 0;
 }
-
 #logo-img {
   background: url('../images/llbistro-large.png') no-repeat;
   width: 150px;
@@ -30,7 +29,7 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 3px 3px 3px #222;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 0;
   line-height: .75;
 }
@@ -286,6 +285,7 @@ h3.menu-item-title {
     background: url('../images/llbistro-medium.png') no-repeat;
     width: 100px;
     height: 100px;
+    margin-top: 70px;
   }
   /* End Header */
 
