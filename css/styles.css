@@ -314,6 +314,12 @@ h3.menu-item-title {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
+  #logo-img{
+    background: url('../images/llbistro-large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 100%;
+  }
   .navbar-brand {
     padding-top: 10px;
     height: 80%;
