@@ -99,10 +99,10 @@ body {
 
 /* FOOTER */
 .panel-footer {
-  margin-top: 30px;
+  background: url('../images/footerbg1.png') no-repeat;
   padding-top: 35px;
   padding-bottom: 30px;
-  background: url('../images/footerbg2.png') no-repeat;
+  margin-top: 30px;
   color: #FFF;
   font-size: 1em;
   border: 0;
