@@ -315,10 +315,11 @@ h3.menu-item-title {
 @media (max-width: 767px) {
   /* Header */
   #logo-img{
+    display: block;
     background: url('../images/llbistro-large.png') no-repeat;
     width: 150px;
     height: 150px;
-    margin: 10px 15px 10px 100%;
+    margin-top: 10px;
   }
   .navbar-brand {
     padding-top: 10px;
