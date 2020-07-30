@@ -181,6 +181,10 @@ body {
 /* END HOME PAGE */
 
 /* MENU CATEGORIES PAGE */
+.dropdown{
+  width: 200px;
+  margin: 15px auto 0;
+}
 #menu-categories-title{
   font-family: serif;
   font-size: 2.5em;
@@ -194,7 +198,7 @@ body {
   overflow: hidden;
   width: 200px;
   height: 200px;
-  margin: 0 auto 15px;
+  margin: 15px auto 0;
 }
 .category-tile span {
   position: absolute;
@@ -208,13 +212,37 @@ body {
   color: #fff;
   opacity: .7;
 }
-.category-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
-}
 
 #menu-categories-title + div {
   margin-bottom: 50px;
 }
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000;
+  opacity: .8;
+  width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white; 
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 1.3em; 
+  display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #696969;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
 /* END MENU CATEGORIES PAGE */
 
 /* ABOUT PAGE */
