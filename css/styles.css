@@ -181,10 +181,6 @@ body {
 /* END HOME PAGE */
 
 /* MENU CATEGORIES PAGE */
-.dropdown{
-  width: 200px;
-  margin: 15px auto 0;
-}
 #menu-categories-title{
   font-family: serif;
   font-size: 2.5em;
@@ -192,6 +188,33 @@ body {
   color: #000;
   font-style: oblique;
 }
+
+.btn-order {
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+  border:2px solid black;
+  box-shadow: 2px solid black;
+}
+
+.btn-order .order-header{
+  font-family: serif;
+  font-size: 2.7em;
+  margin-bottom: 35px;
+  color: #000;
+  font-style: oblique;
+  padding-top: 25px;
+}
+
+.btn-order:hover{
+  background-color: #FFF;
+  opacity: .8;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
 .category-tile { 
   position: relative;
   border: 2px solid #000;
@@ -216,34 +239,7 @@ body {
 #menu-categories-title + div {
   margin-bottom: 50px;
 }
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #000;
-  opacity: .8;
-  width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  text-align: center;
-}
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: white; 
-  padding: 0px 16px;
-  text-decoration: none;
-  font-size: 1.3em; 
-  display: block;
-}
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #696969;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-/* END MENU CATEGORIES PAGE */
 
 /* ABOUT PAGE */
 #about-box{
@@ -403,6 +399,32 @@ body {
   .menu-item-description {
     text-align: center;;
   }
+}
+
+.btn-order .order-header{
+  font-family: serif;
+  font-size: 1.8em;
+  margin-bottom: 35px;
+  color: #000;
+  font-style: oblique;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.btn-order {
+  height: 50px;
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+  border:2px solid black;
+  box-shadow: 2px solid black;
+}
+.btn-order:hover{
+  background-color: #FFF;
+  opacity: .8;
+}
+
+a:hover{
+  text-decoration: none;
 }
 
 
