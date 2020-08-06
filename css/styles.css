@@ -189,32 +189,6 @@ body {
   font-style: oblique;
 }
 
-.btn-order {
-  margin-left: 35%;
-  margin-right: 35%;
-  text-align: center;
-  border:2px solid black;
-  box-shadow: 2px solid black;
-}
-
-.btn-order .order-header{
-  font-family: serif;
-  font-size: 2.7em;
-  margin-bottom: 35px;
-  color: #000;
-  font-style: oblique;
-  padding-top: 25px;
-}
-
-.btn-order:hover{
-  background-color: #FFF;
-  opacity: .8;
-}
-
-a:hover{
-  text-decoration: none;
-}
-
 .category-tile { 
   position: relative;
   border: 2px solid #000;
@@ -240,6 +214,31 @@ a:hover{
   margin-bottom: 50px;
 }
 
+.btn-color{
+  background-color: #e7e7e7;
+  border:none;
+  border-radius: 100px;
+}
+
+#btn-order span{
+  font-size: 1.8em;
+  color: crimson;
+}
+
+#btn-order .order-header{
+  font-family: serif;
+  font-size: 2em;
+  margin-bottom: 35px;
+  color: #000;
+  font-style: oblique;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.btn-color:hover {
+  box-shadow: 2px 2px 2px 2px #000;
+}
 
 /* ABOUT PAGE */
 #about-box{
@@ -400,33 +399,6 @@ a:hover{
     text-align: center;;
   }
 }
-
-.btn-order .order-header{
-  font-family: serif;
-  font-size: 1.8em;
-  margin-bottom: 35px;
-  color: #000;
-  font-style: oblique;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-.btn-order {
-  height: 50px;
-  margin-left: 35%;
-  margin-right: 35%;
-  text-align: center;
-  border:2px solid black;
-  box-shadow: 2px solid black;
-}
-.btn-order:hover{
-  background-color: #FFF;
-  opacity: .8;
-}
-
-a:hover{
-  text-decoration: none;
-}
-
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
