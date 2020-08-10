@@ -180,7 +180,7 @@ body {
   box-shadow: 0 1px 5px 1px #000;
 }
 #menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
+  background: url('../Menu_images/h2.png') no-repeat;
   background-position: center;
 }
 /*#specials-tile {
@@ -432,6 +432,10 @@ a:hover{
   /* End Header */
   
   /* Home page */
+    #menu-tile {
+  background: url('../Menu_images/hsml.png') no-repeat;
+  background-position: center;
+}
   #menu-tile, #specials-tile {
     width: 280px;
     margin: 0 auto 15px;
