@@ -432,8 +432,8 @@ a:hover{
   /* End Header */
   
   /* Home page */
-    #menu-tile {
-  background: url('../Menu_images/hsml.png') no-repeat;
+ #menu-tile {
+  background: url('../Menu_images/hxxsml.png') no-repeat;
   background-position: center;
 }
   #menu-tile, #specials-tile {
